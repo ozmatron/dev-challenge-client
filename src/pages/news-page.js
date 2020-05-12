@@ -18,12 +18,11 @@ class News extends React.Component {
   }
 
   getNews() {
-    axios.get(`http://feeds.bbci.co.uk/news/rss.xml`)
+    axios.get(`https://feeds.bbci.co.uk/news/rss.xml`)
     .then((response) => {
         var parser = new DOMParser();
         var xmlDoc = parser.parseFromString(response.data, "text/xml")
         var topStory = xmlDoc.getElementsByTagName("item")[0]
-        // console.log(response.data)
         if (xmlDoc.getElementsByTagName("url")[0].childNodes[0].nodeValue) {
           this.setState({img: xmlDoc.getElementsByTagName("url")[0].childNodes[0].nodeValue}) 
         }
@@ -38,7 +37,6 @@ class News extends React.Component {
 
   render() {
     let img = <img src={this.state.img} alt="Logo" />;
-    // console.log("duff", this.state);
     return (
       <React.Fragment>
                   <Row className={styles.wrapper}>

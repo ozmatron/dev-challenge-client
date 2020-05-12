@@ -7,8 +7,6 @@ class WeatherPreview extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-        // lat: 51.4939446,
-        // lon: -0.0841836,
         lat: null,
         lon: null,
         temp: null,
