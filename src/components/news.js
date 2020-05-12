@@ -14,7 +14,7 @@ class NewsPreview extends React.Component {
   }
 
   getNews() {
-    axios.get(`http://feeds.bbci.co.uk/news/rss.xml`)
+    axios.get(`https://feeds.bbci.co.uk/news/rss.xml`)
     .then((response) => {
         var parser = new DOMParser();
         var xmlDoc = parser.parseFromString(response.data, "text/xml")

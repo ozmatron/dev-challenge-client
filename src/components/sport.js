@@ -14,7 +14,7 @@ class SportPreview extends React.Component {
   }
 
   getSport() {
-    axios.get(`http://feeds.bbci.co.uk/sport/rss.xml?edition=uk`)
+    axios.get(`https://feeds.bbci.co.uk/sport/rss.xml?edition=uk`)
     .then((response) => {
         var parser = new DOMParser();
         var xmlDoc = parser.parseFromString(response.data, "text/xml")
