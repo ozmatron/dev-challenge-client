@@ -1,0 +1,15 @@
+.title {
+    /* padding-left: 70px;  */
+  }
+.wrapper {
+    padding: 70px; 
+  }
+.photo {
+width: 200px;
+}
+.uploader {
+    padding-bottom: 30px; 
+  }
+.gallery {
+padding-bottom: 20px; 
+}

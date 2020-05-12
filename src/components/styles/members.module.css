@@ -1,0 +1,26 @@
+.wrapper {
+    padding: 40px; 
+  }
+.boxwrapper {
+    background: rgba(204, 204, 204, 0.5);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid yellow;
+  }
+.boxtitle {
+    margin-right: 10px;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: yellow;
+}
+.row {
+  padding: 10px;
+}
+h3 {
+  margin-top: 10px;;
+}

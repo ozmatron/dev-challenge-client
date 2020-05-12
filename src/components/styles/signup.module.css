@@ -1,0 +1,46 @@
+body {
+    background-image: url("./assets/Background.png");
+    background-size:cover;
+  }
+  .wrapper {
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+  input[type=password] {
+    -webkit-text-security: disc;
+    text-security: disc;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color:transparent !important;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color:transparent;
+  }
+  input[type=submit] {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 40px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  
