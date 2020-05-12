@@ -24,7 +24,7 @@ class Login extends React.Component {
   submitHandler = (event) => {
     event.preventDefault();
     if (this.state.username !== "" && this.state.password !== "" && this.state.username.includes("@")) {
-        axios.post(`http://localhost:8080/api/login`, {
+        axios.post(`https://therapy-node.herokuapp.com/api/login`, {
             email: this.state.username,
             password: this.state.password
         })

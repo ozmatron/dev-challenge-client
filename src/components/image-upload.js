@@ -39,7 +39,7 @@ class ImageUp extends React.Component {
         formData.append('userId', userIdStr);
         formData.append('selectedFile', selectedFile);
 
-        axios.post('http://localhost:8080/api/upload', formData)
+        axios.post('https://therapy-node.herokuapp.com/api/upload', formData)
           .then((result) => {
           });
       }

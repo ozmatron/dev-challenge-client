@@ -24,7 +24,7 @@ class Members extends React.Component {
   }
 
   getUserId() {
-    axios.get(`/api/user_data`)
+    axios.get(`https://therapy-node.herokuapp.com/api/user_data`)
     .then((response) => {
       this.setState({user: response.data.username})
     })
