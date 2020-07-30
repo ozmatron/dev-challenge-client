@@ -1,0 +1,13 @@
+.title {
+    padding-left: 70px; 
+  }
+.wrapper {
+    padding: 70px; 
+  }
+.checkbox {
+    padding-top: 15px;
+    height: 50px;
+}
+.input {
+    height: 50px;
+}
